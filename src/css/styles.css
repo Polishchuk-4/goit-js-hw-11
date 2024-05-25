@@ -21,3 +21,40 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.container {
+  width: fit-content;
+  margin: 50px auto;
+}
+input {
+  width: 272px;
+  height: 40px;
+  padding: 8px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  border: 1px solid rgb(128, 128, 128);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  outline: none; /* Remove default focus outline */
+}
+input:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+input:focus {
+  border-color: rgb(78, 117, 255);
+}
+button {
+  width: 91px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(78, 117, 255);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+button:hover {
+  background: rgb(78, 117, 255);
+}
