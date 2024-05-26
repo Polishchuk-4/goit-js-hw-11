@@ -76,7 +76,6 @@ p {
   height: 200px;
   border: 1px solid rgb(128, 128, 128);
   overflow: hidden;
-  background-color: yellow;
 }
 .gallery-img {
   width: 100%;
