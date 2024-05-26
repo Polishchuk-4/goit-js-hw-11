@@ -125,7 +125,6 @@ p {
   border-radius: 5px;
   z-index: 99;
 }
-/* HTML: <div class="loader"></div> */
 .load {
   display: inline-block;
   width: 30px;
